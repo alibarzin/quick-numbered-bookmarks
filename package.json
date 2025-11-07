@@ -7,18 +7,41 @@
   "engines": {
     "vscode": "^1.70.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibarzin/numbered-bookmarks"
+  },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCommand:numberedBookmarks.add0",
-    "onCommand:numberedBookmarks.goto0"
+    "onCommand:numberedBookmarks.toggle0",
+    "onCommand:numberedBookmarks.goto0",
+    "onCommand:numberedBookmarks.toggle1",
+    "onCommand:numberedBookmarks.goto1",
+    "onCommand:numberedBookmarks.toggle2",
+    "onCommand:numberedBookmarks.goto2",
+    "onCommand:numberedBookmarks.toggle3",
+    "onCommand:numberedBookmarks.goto3",
+    "onCommand:numberedBookmarks.toggle4",
+    "onCommand:numberedBookmarks.goto4",
+    "onCommand:numberedBookmarks.toggle5",
+    "onCommand:numberedBookmarks.goto5",
+    "onCommand:numberedBookmarks.toggle6",
+    "onCommand:numberedBookmarks.goto6",
+    "onCommand:numberedBookmarks.toggle7",
+    "onCommand:numberedBookmarks.goto7",
+    "onCommand:numberedBookmarks.toggle8",
+    "onCommand:numberedBookmarks.goto8",
+    "onCommand:numberedBookmarks.toggle9",
+    "onCommand:numberedBookmarks.goto9",
+    "onCommand:numberedBookmarks.list"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "numberedBookmarks.add0",
+        "command": "numberedBookmarks.toggle0",
         "title": "Add Bookmark 0"
       },
       {
@@ -28,8 +51,8 @@
     ],
     "keybindings": [
       {
-        "key": "ctrl+alt+0",
-        "command": "numberedBookmarks.add0",
+        "key": "ctrl+shift+0",
+        "command": "numberedBookmarks.toggle0",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -38,8 +61,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+0",
-        "command": "numberedBookmarks.add0",
+        "key": "super+shift+0",
+        "command": "numberedBookmarks.toggle0",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -50,8 +73,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+1",
-        "command": "numberedBookmarks.add1",
+        "key": "ctrl+shift+1",
+        "command": "numberedBookmarks.toggle1",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -60,8 +83,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+1",
-        "command": "numberedBookmarks.add1",
+        "key": "super+shift+1",
+        "command": "numberedBookmarks.toggle1",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -72,8 +95,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+2",
-        "command": "numberedBookmarks.add2",
+        "key": "ctrl+shift+2",
+        "command": "numberedBookmarks.toggle2",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -82,8 +105,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+2",
-        "command": "numberedBookmarks.add2",
+        "key": "super+shift+2",
+        "command": "numberedBookmarks.toggle2",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -94,8 +117,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+3",
-        "command": "numberedBookmarks.add3",
+        "key": "ctrl+shift+3",
+        "command": "numberedBookmarks.toggle3",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -104,8 +127,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+3",
-        "command": "numberedBookmarks.add3",
+        "key": "super+shift+3",
+        "command": "numberedBookmarks.toggle3",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -116,8 +139,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+4",
-        "command": "numberedBookmarks.add4",
+        "key": "ctrl+shift+4",
+        "command": "numberedBookmarks.toggle4",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -126,8 +149,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+4",
-        "command": "numberedBookmarks.add4",
+        "key": "super+shift+4",
+        "command": "numberedBookmarks.toggle4",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -138,8 +161,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+5",
-        "command": "numberedBookmarks.add5",
+        "key": "ctrl+shift+5",
+        "command": "numberedBookmarks.toggle5",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -148,8 +171,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+5",
-        "command": "numberedBookmarks.add5",
+        "key": "super+shift+5",
+        "command": "numberedBookmarks.toggle5",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -160,8 +183,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+6",
-        "command": "numberedBookmarks.add6",
+        "key": "ctrl+shift+6",
+        "command": "numberedBookmarks.toggle6",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -170,8 +193,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+6",
-        "command": "numberedBookmarks.add6",
+        "key": "super+shift+6",
+        "command": "numberedBookmarks.toggle6",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -182,8 +205,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+7",
-        "command": "numberedBookmarks.add7",
+        "key": "ctrl+shift+7",
+        "command": "numberedBookmarks.toggle7",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -192,8 +215,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+7",
-        "command": "numberedBookmarks.add7",
+        "key": "super+shift+7",
+        "command": "numberedBookmarks.toggle7",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -204,8 +227,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+8",
-        "command": "numberedBookmarks.add8",
+        "key": "ctrl+shift+8",
+        "command": "numberedBookmarks.toggle8",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -214,8 +237,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+8",
-        "command": "numberedBookmarks.add8",
+        "key": "super+shift+8",
+        "command": "numberedBookmarks.toggle8",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
@@ -226,8 +249,8 @@
         "mac": true
       },
       {
-        "key": "ctrl+alt+9",
-        "command": "numberedBookmarks.add9",
+        "key": "ctrl+shift+9",
+        "command": "numberedBookmarks.toggle9",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
@@ -236,8 +259,8 @@
         "when": "editorTextFocus"
       },
       {
-        "key": "super+alt+9",
-        "command": "numberedBookmarks.add9",
+        "key": "super+shift+9",
+        "command": "numberedBookmarks.toggle9",
         "when": "editorTextFocus && !editorReadonly",
         "mac": true
       },
