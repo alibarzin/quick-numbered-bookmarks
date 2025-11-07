@@ -1,0 +1,267 @@
+{
+  "name": "numbered-bookmarks",
+  "displayName": "Numbered Bookmarks",
+  "description": "Add and jump to numbered (0-9) bookmarks with keyboard shortcuts.",
+  "version": "0.1.0",
+  "publisher": "alirezabarzin",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:numberedBookmarks.add0",
+    "onCommand:numberedBookmarks.goto0"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "numberedBookmarks.add0",
+        "title": "Add Bookmark 0"
+      },
+      {
+        "command": "numberedBookmarks.goto0",
+        "title": "Go To Bookmark 0"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+alt+0",
+        "command": "numberedBookmarks.add0",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+0",
+        "command": "numberedBookmarks.goto0",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+0",
+        "command": "numberedBookmarks.add0",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+0",
+        "command": "numberedBookmarks.goto0",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+1",
+        "command": "numberedBookmarks.add1",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+1",
+        "command": "numberedBookmarks.goto1",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+1",
+        "command": "numberedBookmarks.add1",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+1",
+        "command": "numberedBookmarks.goto1",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+2",
+        "command": "numberedBookmarks.add2",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+2",
+        "command": "numberedBookmarks.goto2",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+2",
+        "command": "numberedBookmarks.add2",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+2",
+        "command": "numberedBookmarks.goto2",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+3",
+        "command": "numberedBookmarks.add3",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+3",
+        "command": "numberedBookmarks.goto3",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+3",
+        "command": "numberedBookmarks.add3",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+3",
+        "command": "numberedBookmarks.goto3",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+4",
+        "command": "numberedBookmarks.add4",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+4",
+        "command": "numberedBookmarks.goto4",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+4",
+        "command": "numberedBookmarks.add4",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+4",
+        "command": "numberedBookmarks.goto4",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+5",
+        "command": "numberedBookmarks.add5",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+5",
+        "command": "numberedBookmarks.goto5",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+5",
+        "command": "numberedBookmarks.add5",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+5",
+        "command": "numberedBookmarks.goto5",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+6",
+        "command": "numberedBookmarks.add6",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+6",
+        "command": "numberedBookmarks.goto6",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+6",
+        "command": "numberedBookmarks.add6",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+6",
+        "command": "numberedBookmarks.goto6",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+7",
+        "command": "numberedBookmarks.add7",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+7",
+        "command": "numberedBookmarks.goto7",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+7",
+        "command": "numberedBookmarks.add7",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+7",
+        "command": "numberedBookmarks.goto7",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+8",
+        "command": "numberedBookmarks.add8",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+8",
+        "command": "numberedBookmarks.goto8",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+8",
+        "command": "numberedBookmarks.add8",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+8",
+        "command": "numberedBookmarks.goto8",
+        "when": "editorTextFocus",
+        "mac": true
+      },
+      {
+        "key": "ctrl+alt+9",
+        "command": "numberedBookmarks.add9",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+9",
+        "command": "numberedBookmarks.goto9",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "super+alt+9",
+        "command": "numberedBookmarks.add9",
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": true
+      },
+      {
+        "key": "super+9",
+        "command": "numberedBookmarks.goto9",
+        "when": "editorTextFocus",
+        "mac": true
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^18.19.130",
+    "@types/vscode": "^1.70.0",
+    "@vscode/test-electron": "^2.5.2",
+    "mocha": "^11.7.5",
+    "typescript": "^4.9.0"
+  }
+}
