@@ -126,5 +126,3 @@ Ctrl + Shift + 3 → Bookmark [3] removed.
 ---
 
 ⚡ **Numbered Bookmarks** — simple, fast, and built for developers who hate losing their place.
-
----
