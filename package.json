@@ -1,6 +1,6 @@
 {
-  "name": "numbered-bookmarks",
-  "displayName": "Numbered Bookmarks",
+  "name": "quick-number-bookmarks",
+  "displayName": "Quick Numbered Bookmarks",
   "description": "Add and jump to numbered (0-9) bookmarks with keyboard shortcuts.",
   "version": "0.1.0",
   "publisher": "alirezabarzin",
